@@ -1,10 +1,11 @@
 // ==UserScript==
-// @name    Polite Text
-// @version 1.4b1
-// @include http://tagpro-*.koalabeast.com:*
-// @include http://tangent.jukejuice.com:*
-// @include http://maptest*.newcompte.fr:*
-// @author  Witch
+// @name      Polite Text
+// @updateURL https://raw.githubusercontent.com/WitchTP/Tagpro-Userscripts/master/politeText.js
+// @version   1.4b2
+// @include   http://tagpro-*.koalabeast.com:*
+// @include   http://tangent.jukejuice.com:*
+// @include   http://maptest*.newcompte.fr:*
+// @author    Witch
 // ==/UserScript==
 
 var politeMap = {
@@ -13,11 +14,17 @@ var politeMap = {
     'fucks': 'things',
     'fucked': 'messed',
     'fucking': 'loving',
-    'fuckin': 'loving',
-    'fucken': 'loving',
-    'fuken': 'loving',
-    'fukin': 'loving',
+    'fuckin': 'lovin',
+    'fucken': 'lovin',
+    'fuken': 'lovin',
+    'fukin': 'lovin',
     'fak': 'love',
+    'fook': 'love',
+    'fookin': 'lovin',
+    'fooking': 'loving',
+    'fuc': 'love',
+    'fucin': 'lovin',
+    'fucing': 'loving',
     'fk': '<3',
     'shitting': 'hugging',
     'shit': 'sorry',
@@ -149,7 +156,10 @@ var politeMap = {
     'cock': 'bunny',
     'cocksucker': 'amigo',
     'cocksucking': 'beautiful',
-    'dumbass': 'cool person'
+    'dumbass': 'cool person',
+    'dumass': 'cool person',
+    'dummass': 'cool person',
+    'bollocks': 'apologies'
 };
 
 function addToTagproReady(fn) {
