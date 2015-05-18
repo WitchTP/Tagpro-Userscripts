@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name    Polite Text
-// @version 1.4
+// @version 1.4.1
 // @include http://tagpro-*.koalabeast.com:*
 // @include http://tangent.jukejuice.com:*
 // @include http://maptest*.newcompte.fr:*
@@ -17,6 +17,8 @@ var politeMap = {
     'fucken': 'loving',
     'fuken': 'loving',
     'fukin': 'loving',
+    'fak': 'love',
+    'fk': '<3',
     'shitting': 'hugging',
     'shit': 'sorry',
     'shat': 'apologized',
@@ -136,7 +138,18 @@ var politeMap = {
     'lesbo': 'cool',
     'lesbos': 'cool people',
     'lesboes': 'cool people',
-    'tranny': 'nice person'
+    'tranny': 'nice person',
+    'scum': 'buddy',
+    'scummy': 'beautiful',
+    'motherfucking': 'loving',
+    'motherfucken': 'loving',
+    'motherfuckin': 'loving',
+    'motherfuken': 'loving',
+    'motherfukin': 'loving',
+    'cock': 'bunny',
+    'cocksucker': 'amigo',
+    'cocksucking': 'beautiful',
+    'dumbass': 'cool person'
 };
 
 function addToTagproReady(fn) {
