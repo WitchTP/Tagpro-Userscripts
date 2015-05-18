@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name    Polite Text
-// @version 1.4.1
+// @version 1.4b1
 // @include http://tagpro-*.koalabeast.com:*
 // @include http://tangent.jukejuice.com:*
 // @include http://maptest*.newcompte.fr:*
