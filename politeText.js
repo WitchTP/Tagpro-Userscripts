@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name      Polite Text
 // @updateURL https://raw.githubusercontent.com/WitchTP/Tagpro-Userscripts/master/politeText.js
-// @version   1.4b3
+// @version   1.4b4
 // @include   http://tagpro-*.koalabeast.com:*
 // @include   http://tangent.jukejuice.com:*
 // @include   http://maptest*.newcompte.fr:*
@@ -167,10 +167,18 @@ var politeMap = {
     'nipple': 'bead',
     'nipples': 'beads',
     'cum': 'milk',
-    'cums': 'secretes',
-    'cummed': 'secreted',
+    'cums': 'spills',
+    'cummed': 'spilled',
     'cumguzzler': 'consumer',
-    'semen': 'milk'
+    'semen': 'milk',
+    'sex': 'fun',
+    'cunnilingus': 'dinner',
+    'blowjob': 'lunch',
+    'blow': 'feed',
+    'blows': 'feeds',
+    'jizz': 'milk',
+    'jizzes': 'spills',
+    'jizzed': 'spilled'
 };
 
 function addToTagproReady(fn) {
