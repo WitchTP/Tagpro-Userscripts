@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name      Polite Text
 // @updateURL https://raw.githubusercontent.com/WitchTP/Tagpro-Userscripts/master/politeText.js
-// @version   1.4b2
+// @version   1.4b3
 // @include   http://tagpro-*.koalabeast.com:*
 // @include   http://tangent.jukejuice.com:*
 // @include   http://maptest*.newcompte.fr:*
@@ -26,6 +26,8 @@ var politeMap = {
     'fucin': 'lovin',
     'fucing': 'loving',
     'fk': '<3',
+    'turd': 'cake',
+    'turds': 'cakes',
     'shitting': 'hugging',
     'shit': 'sorry',
     'shat': 'apologized',
@@ -159,7 +161,16 @@ var politeMap = {
     'dumbass': 'cool person',
     'dumass': 'cool person',
     'dummass': 'cool person',
-    'bollocks': 'apologies'
+    'bollocks': 'apologies',
+    'tit': 'bird',
+    'tits': 'birds',
+    'nipple': 'bead',
+    'nipples': 'beads',
+    'cum': 'milk',
+    'cums': 'secretes',
+    'cummed': 'secreted',
+    'cumguzzler': 'consumer',
+    'semen': 'milk'
 };
 
 function addToTagproReady(fn) {
