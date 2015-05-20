@@ -15,8 +15,8 @@
 	"KGBallers":["Rollin Golden Boulders", "The Wild Pings", "The Roll Models", "Sum of All Spheres", "Ball€himedes", "PB Probots", "Easily Excitaball", "Tears", "Capper's Delight"],
 	"Cappers_Delight":["Ball€himedes", "PB Probots", "Easily Excitaball", "Tears", "Sum of All Spheres", "Rollin Golden Boulders", "The Wild Pings", "The Roll Models", "KGBallers"],
 	"Adrenaline_Spikes":["Bad News Balls", "Ghostboosters", "Marble Madness", "Boostin Dynamo", "30 Seconds to Mars Ball", "Myrtle Beach Merballs", "ALL CAPS", "Skillz That Killz", "Lagprone"],
-	"Myrtle_Beach_Merballs":["", "", "", "", "", "", "", "", ""],
-	"Ghostboosters":["", "", "", "", "", "", "", "", ""],
-	"ALL_CAPS":["", "", "", "", "", "", "", "", ""],
-	"Marble_Madness":["", "", "", "", "", "", "", "", ""]
+	"Myrtle_Beach_Merballs":["30 Seconds to Mars Ball", "Bad News Balls", "ALL CAPS", "Skillz That Killz", "Lagprone", "Adrenaline Spikes", "Ghostboosters", "Marble Madness", "Boostin Dynamo"],
+	"Ghostboosters":["Lagprone", "Adrenaline Spikes", "Bad News Balls", "Marble Madness", "Boostin Dynamo", "30 Seconds to Mars Ball", "Myrtle Beach Merballs", "ALL CAPS", "Skillz That Killz"],
+	"ALL_CAPS":["Boostin Dynamo", "30 Seconds to Mars Ball", "Myrtle Beach Merballs", "Bad News Balls", "Skillz That Killz", "Lagprone", "Adrenaline Spikes", "Ghostboosters", "Marble Madness"],
+	"Marble_Madness":["Skillz That Killz", "Lagprone", "Adrenaline Spikes", "Ghostboosters", "Bad News Balls", "Boostin Dynamo", "30 Seconds to Mars Ball", "Myrtle Beach Merballs", "ALL CAPS"]
 }
