@@ -1,9 +1,9 @@
 {
 	"Sum_of_All_Spheres":["Easily Excitaball", "The Roll Models", "Tears", "KGBallers", "Capper's Delight", "Ball€himedes", "Rollin Golden Boulders", "PB Probots", "The Wild Pings"],
 	"The_Wild_Pings":["The Roll Models", "KGBallers", "Ball€himedes", "PB Probots", "Easily Excitaball", "Tears", "Capper's Delight", "Rollin Golden Boulders", "Sum of All Spheres"],
-	"PB_Probots":["", "", "", "", "", "", "", "", ""],
-	"Rollin_Golden_Boulders":["", "", "", "", "", "", "", "", ""],
-	"Ballchimedes":["", "", "", "", "", "", "", "", ""],
+	"PB_Probots":["Tears", "Capper's Delight", "Rollin Golden Boulders", "The Wild Pings", "The Roll Models", "KGBallers", "Ball€himedes", "Sum of All Spheres", "Easily Excitaball"],
+	"Rollin_Golden_Boulders":["KGBallers", "Ball€himedes", "PB Probots", "Easily Excitaball", "Tears", "Capper's Delight", "Sum of All Spheres", "The Wild Pings", "The Roll Models"],
+	"Ballchimedes":["Capper's Delight", "Rollin Golden Boulders", "The Wild Pings", "The Roll Models", "KGBallers", "Sum of All Spheres", "PB Probots", "Easily Excitaball", "Tears"],
 	"Bad_News_Balls":["", "", "", "", "", "", "", "", ""],
 	"Thirty_Seconds_to_Mars_Ball":["", "", "", "", "", "", "", "", ""],
 	"Lagprone":["", "", "", "", "", "", "", "", ""],
