@@ -1,12 +1,17 @@
 // ==UserScript==
 // @name      Polite Text
 // @updateURL https://raw.githubusercontent.com/WitchTP/Tagpro-Userscripts/master/politeText.js
-// @version   1.4b4
+// @version   1.4b5
 // @include   http://tagpro-*.koalabeast.com:*
 // @include   http://tangent.jukejuice.com:*
 // @include   http://maptest*.newcompte.fr:*
 // @author    Witch
 // ==/UserScript==
+
+/*
+ * Left-hand side of the map must be lowercase and without spaces or punctuation.
+ * Right-hand side can be anything you want, but make sure that the syntax is valid.
+ */
 
 var politeMap = {
     'fuck': 'love',
@@ -25,7 +30,17 @@ var politeMap = {
     'fuc': 'love',
     'fucin': 'lovin',
     'fucing': 'loving',
+    'feck': 'love',
+    'feckin': 'lovin',
+    'fecking': 'loving',
     'fk': '<3',
+    'fck': 'love',
+    'fckin': 'lovin',
+    'fcking': 'loving',
+    'fcken': 'lovin',
+    'fken': 'lovin',
+    'fckn': 'lovin',
+    'fkn': 'lovin',
     'turd': 'cake',
     'turds': 'cakes',
     'shitting': 'hugging',
@@ -37,6 +52,9 @@ var politeMap = {
     'bitch': 'lady',
     'bitches': 'ladies',
     'bitchy': 'lovely',
+    'biatch': 'lady',
+    'biatchs': 'ladies',
+    'biatches': 'ladies',
     'hate': 'care about',
     'hates': 'cares about',
     'suck': 'win',
@@ -62,6 +80,8 @@ var politeMap = {
     'asses': 'posteriors',
     'gay': 'cool',
     'gays': 'cool people',
+    'queer': 'cool',
+    'queers': 'cool people',
     'fag': 'nice person',
     'fags': 'nice people',
     'faggot': 'nice person',
@@ -147,6 +167,8 @@ var politeMap = {
     'lesbo': 'cool',
     'lesbos': 'cool people',
     'lesboes': 'cool people',
+    'dyke': 'cool person',
+    'dykes': 'cool people',
     'tranny': 'nice person',
     'scum': 'buddy',
     'scummy': 'beautiful',
@@ -161,7 +183,14 @@ var politeMap = {
     'dumbass': 'cool person',
     'dumass': 'cool person',
     'dummass': 'cool person',
+    'bollock': 'apology',
     'bollocks': 'apologies',
+    'bollok': 'apology',
+    'bolloks': 'apologies',
+    'bolock': 'apology',
+    'bolocks': 'apologies',
+    'bolok': 'apology',
+    'boloks': 'apologies',
     'tit': 'bird',
     'tits': 'birds',
     'nipple': 'bead',
@@ -178,7 +207,16 @@ var politeMap = {
     'blows': 'feeds',
     'jizz': 'milk',
     'jizzes': 'spills',
-    'jizzed': 'spilled'
+    'jizzed': 'spilled',
+    'boner': 'pencil',
+    'boners': 'pencils',
+    'smegma': 'butter',
+    'labia': 'bunny',
+    'twat': 'great person',
+    'twats': 'great people',
+    'felch': 'swallow',
+    'felching': 'swallowing',
+    'felches': 'swallows'
 };
 
 function addToTagproReady(fn) {
