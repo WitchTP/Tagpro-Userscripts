@@ -1,0 +1,10 @@
+{
+	"name": "Group-Lister",
+	"version": "1.0.0",
+	"main": "main.js",
+	"author": "Contessa",
+	"dependencies": {
+		"request": "latest",
+		"cheerio": "latest"
+	}
+}

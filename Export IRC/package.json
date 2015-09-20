@@ -1,0 +1,9 @@
+{
+  "name": "bottessa",
+  "version": "1.0.0",
+  "description": "Contessa's Bot",
+  "author": "Contessa",
+  "dependencies": {
+    "irc": "^0.3.12"
+  }
+}
