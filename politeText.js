@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name      Polite Text
 // @updateURL https://raw.githubusercontent.com/WitchTP/Tagpro-Userscripts/master/politeText.js
-// @version   1.4b5
+// @version   1.4b6
 // @include   http://tagpro-*.koalabeast.com:*
 // @include   http://tangent.jukejuice.com:*
 // @include   http://maptest*.newcompte.fr:*
@@ -88,6 +88,20 @@ var politeMap = {
     'faggots': 'nice people',
     'fagit': 'nice person',
     'fagits': 'nice people',
+    'fagtit': 'nice chest',
+    'fagtits': 'nice chest',
+    'fagot': 'nice person',
+    'fagots': 'nice people',
+    'fagott': 'nice person',
+    'fagotts': 'nice people',
+    'faggott': 'nice person',
+    'faggotts': 'nice people',
+    'faget': 'nice person',
+    'fagets': 'nice people',
+    'fagget': 'nice person',
+    'faggets': 'nice people',
+    'faggett': 'nice person',
+    'faggetts': 'nice people',
     'fgt': 'nice person',
     'fgts': 'nice people',
     'fuckface': 'friend',
@@ -233,7 +247,7 @@ function getPoliteText(message) {
     var politeText = message;
     var words = message.match(/\S+/g); // split up text based on whitespace
     for (var index in words) {
-        var word = words[index].replace(/[\.,-\/#!$%\^&\*;:{}=\-_`~\[\]()\+\'\"\\]/g,''); // strip punctuation
+        var word = words[index].replace(/[\.,-\/#!$%\^&\*;:{}=\-_`~\[\]()\+\'\"\\\?]/g,''); // strip punctuation
         var lowerWord = word.toLowerCase();
         if (lowerWord in politeMap) {
             politeText = politeText.replace(word, politeMap[lowerWord]);
