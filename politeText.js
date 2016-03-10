@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name      Polite Text
 // @updateURL https://raw.githubusercontent.com/WitchTP/Tagpro-Userscripts/master/politeText.js
-// @version   1.4b6
+// @version   1.4b7
 // @include   http://tagpro-*.koalabeast.com:*
 // @include   http://tangent.jukejuice.com:*
 // @include   http://maptest*.newcompte.fr:*
@@ -230,7 +230,11 @@ var politeMap = {
     'twats': 'great people',
     'felch': 'swallow',
     'felching': 'swallowing',
-    'felches': 'swallows'
+    'felches': 'swallows',
+    'garbage': 'awesome',
+    'gabage': 'awesome',
+    'garbag': 'awesome',
+    'garbae': 'awesome'
 };
 
 function addToTagproReady(fn) {
