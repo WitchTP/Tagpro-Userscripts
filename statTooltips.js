@@ -47,7 +47,15 @@
         return statTipMap[jQuery(row).text()] !== undefined;
     }
 
+    function setTooltip(row, text) {
+        jQuery(row).prop('title', text);
+    }
+
+    function unravel(func, pair) {
+        func(pair.row, pair.tooltip);
+    }
+
     function setTooltipsForStats() {
-        jQuery('.table-row-label').get().filter(hasTooltipText).map(getTooltipText).forEach(pair => jQuery(pair.row).prop('title', pair.tooltip));
+        jQuery('.table-row-label').get().filter(hasTooltipText).map(getTooltipText).forEach(unravel.bind(null, setTooltip));
     }
 })();
