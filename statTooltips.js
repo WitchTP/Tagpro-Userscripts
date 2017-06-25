@@ -4,6 +4,7 @@
 // @version      0.1
 // @description  Display tooltips for each stat field on the profile page.
 // @author       Witch
+// @updateURL    https://raw.githubusercontent.com/WitchTP/Tagpro-Userscripts/master/statTooltips.js
 // @include      http://*.koalabeast.com/profile/*
 // @include      http://*.jukejuice.com/profile/*
 // @include      http://*.newcompte.fr/profile/*
